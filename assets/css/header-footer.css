@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body * a {
+  text-decoration: none;
+}
+body * ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+body * p, body * span, body * a, body * li, body * input, body * textarea {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navigation-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 9999;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1098039216);
+}
+.navigation-bar .logo a {
+  width: 100%;
+}
+.navigation-bar .logo a img {
+  width: 100%;
+}
+.navigation-bar .navigation-tabs ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation-bar .navigation-tabs ul li {
+  color: #fff;
+}
+.navigation-bar .navigation-tabs ul li a {
+  padding: 25px 0px;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+.navigation-bar .navigation-tabs ul li a:hover {
+  color: #2b9b1f;
+  transition: all 0.3s ease;
+}
+.navigation-bar .contact-button {
+  text-align: right;
+}
+.navigation-bar .contact-button a {
+  padding: 10px 20px;
+  background-color: #2b9b1f;
+  color: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+.navigation-bar .contact-button a i {
+  padding-right: 10px;
+  font-size: 14px;
+}
+.navigation-bar .contact-button a:hover {
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #2b9b1f;
+}/*# sourceMappingURL=header-footer.css.map */

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:900&display=swap");
+
+// font-family: 'Heebo', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&display=swap');
+$primery-color:#2b9b1f;
+$text-color:#767d8e;
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	* {
+		a {
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+			padding-left: 0px;
+			margin-bottom: 0px;
+		}
+        p,span,a,li,input,textarea{
+            font-family: 'Heebo', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+	}
+}
+
+.navigation-bar{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 0px;
+   z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF1C;
+    .logo{
+        a{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .navigation-tabs{
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                color: #fff;
+                a{
+                    padding: 25px 0px;
+                    color: #fff;
+                    transition: all .3s ease;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: $primery-color;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+        }
+    }
+    .contact-button{
+        text-align: right;
+        a{
+            padding: 10px 20px;
+            background-color: $primery-color;
+            color: #fff;
+            border-radius: 6px;
+            transition: all .3s ease;
+            border: 1px solid transparent;
+            text-transform: uppercase;
+            i{
+                padding-right: 10px;
+                font-size: 14px;
+            }
+            &:hover{
+                transition: all .3s ease;
+                background-color: transparent;
+                border: 1px solid #fff;
+                color: $primery-color;
+            }
+        }
+    }
+}
+
+
